@@ -1,0 +1,16 @@
+.done,
+.notDone {
+  font-size: 3.5vh;
+  margin: 10px;
+  word-break: break-all;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
